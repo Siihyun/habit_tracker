@@ -2,7 +2,7 @@
 
 리액트를 이용해서 만든 간단한 Habit Tracker Web application 입니다.
 
-실행을 원하면 [Click](https://siihyun.github.io/habit_tracker/) 하세요!
+[여기](https://siihyun.github.io/habit_tracker/)를 클릭하면 직접 실행해 보실 수 있습니다.
 
 
 ---
