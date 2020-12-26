@@ -1,17 +1,16 @@
-import React, { Component } from "react";
+import React, { memo, useCallback } from "react";
 
-class reset extends Component {
-  onReset = () => {
-    this.props.onReset();
-  };
+const Reset = memo((props) => {
+  console.log("reset");
+  const onReset = useCallback(() => {
+    props.onReset();
+  }, [props]);
 
-  render() {
-    return (
-      <button className="reset-button" onClick={this.onReset}>
-        Reset All
-      </button>
-    );
-  }
-}
+  return (
+    <button className="reset-button" onClick={onReset}>
+      Reset All
+    </button>
+  );
+});
 
-export default reset;
+export default Reset;
