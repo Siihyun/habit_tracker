@@ -7,7 +7,7 @@
 
 ---
 
-How To use
+### How To use
 
 - input 창에 tracking할 습관을 입력합니다.
 - plus 버튼과 minus 버튼을 클릭해서 count할 수 있습니다.
